@@ -1,7 +1,9 @@
 {
   "name": "softronics",
   "version": "0.0.0",
+  "main": "main.js",
   "scripts": {
+    "electron": "ng build --base-href ./ && electron .",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -31,10 +33,11 @@
     "@angular/cli": "~7.3.1",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
+    "electron": "^4.0.4",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.1.1",
