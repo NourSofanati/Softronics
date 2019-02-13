@@ -1,0 +1,53 @@
+.dashboard-shortcut-buttons {
+  text-align: center;
+  color: white;
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+    height: 60px;
+    li {
+      cursor: pointer;
+      padding: 0 15px;
+      transition: 0.1s;
+
+      height: 60px;
+    }
+    li:hover {
+      background-color: #24e9d5 !important;
+      transition: 0.1s ease-in-out;
+    }
+  }
+  background-color: #10cfbd;
+  min-height: 0px;
+  padding: 0px;
+  box-shadow: 0 1px 5px #aaaaaa;
+  z-index: 10;
+}
+.content-m {
+  padding: 15px;
+  background: #fafafa;
+  flex-grow: 1;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.col-sm-6 {
+    width: 49%;
+    float: right;
+    margin: 0px 8px;
+}
+.row {
+}
+.panel {
+  padding: 10px;
+  margin: 0 0 15px 0;
+  height: 410px;
+  box-shadow: 3px 3px 32px -14px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+}

@@ -1,0 +1,71 @@
+<div id="dFlexMain">
+  <nav>
+    <div class="sidebar-header">
+      <a href="index.html">
+        {{title}}
+      </a>
+    </div>
+    <ul class="menu-items">
+      <li class="menu-title">الرئيسية</li>
+      <li class="EmergeHoverColor active" routerLink="/dashboard" routerLinkActive="active">
+        <span class="icon-thumbnail">🏠</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">لوحة القيادة</span>
+        </a>
+      </li>
+      <li class="EmergeHoverColor" routerLink="/costumers" routerLinkActive="active">
+        <span class="icon-thumbnail">👥</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">الزبائن</span>
+        </a>
+      </li>
+      <li class="EmergeHoverColor" routerLink="/suppliers" routerLinkActive="active">
+        <span class="icon-thumbnail">👥</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">الموردين</span>
+        </a>
+      </li>
+      <li class="EmergeHoverColor" routerLink="/products" routerLinkActive="active">
+        <span class="icon-thumbnail">🏠</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">المنتجات</span>
+        </a>
+      </li>
+      <li class="menu-title">إدارة</li>
+      <li class="EmergeHoverColor" routerLink="/sales" routerLinkActive="active">
+        <span class="icon-thumbnail">📓</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">المبيعات</span>
+        </a>
+      </li>
+      <li class="EmergeHoverColor" routerLink="/purchases" routerLinkActive="active">
+        <span class="icon-thumbnail">📒</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">المشتريات</span>
+        </a>
+      </li>
+      <li class="EmergeHoverColor" routerLink="/inventory" routerLinkActive="active">
+        <span class="icon-thumbnail">📦</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">المستودع</span>
+        </a>
+      </li>
+      <li class="menu-title">الحسابات</li>
+      <li class="EmergeHoverColor">
+        <span class="icon-thumbnail">💵</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">الذمم المستحقة</span>
+        </a>
+      </li>
+      <li class="EmergeHoverColor">
+        <span class="icon-thumbnail">💷</span>
+        <a class="cursor">
+          <span class="title EmergeHoverColor">الذمم الدائنة</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>
